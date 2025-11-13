@@ -1,13 +1,33 @@
+<!DOCTYPE html>
 <html>
-<head><title></title><style></head>
+<head>
+    <title>Login Page</title>
+    <style>
+        body { font-family: Arial, sans-serif; }
+        fieldset { width: 300px; margin: 50px auto; }
+        legend { font-size: 18px; font-weight: bold; }
+        label { display: block; margin: 10px 0 5px; }
+        input { width: 100%; padding: 5px; margin-bottom: 10px; }
+        a { text-decoration: underline; font-weight: bold; }
+    </style>
+</head>
 <body>
-<fieldset><center><legend>longin</legend></center>
+
 <form>
-username:<input type="text"name="username"><br>
-password:<input type="password"name="password">
-<br>
-<a href=""><b><u>code</u></b>
-</fieldset></form>
-</body></html>
+    <fieldset>
+        <legend>Login</legend>
 
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username">
 
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password">
+
+        <input type="submit" value="Login"><br>
+
+        <a href="#">Code</a>
+    </fieldset>
+</form>
+
+</body>
+</html>
